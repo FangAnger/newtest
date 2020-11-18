@@ -12,7 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ibm.springboot.bean.User;
 import com.ibm.springboot.service.UserService;
 @RestController
+
 public class UserController {
+	
 	@Autowired
 	private UserService userService;
 
